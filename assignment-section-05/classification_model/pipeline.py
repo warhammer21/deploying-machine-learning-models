@@ -62,3 +62,4 @@ titanic_pipe = Pipeline(
         ("Logit", LogisticRegression(C=0.0005, random_state=0)),
     ]
 )
+

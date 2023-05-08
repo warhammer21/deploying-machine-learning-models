@@ -1,0 +1,33 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files
+data_file: /Users/shreyakvashisht/PycharmProjects/deploying-machine-learning-models/titanic/classification_model/datasets/data_all.csv
+
+# Variables
+# The variable we are attempting to predict (sale price)
+
+
+# Will cause syntax errors since they begin with numbers
+
+
+numerical_variables:
+  - age
+  - fare
+
+categorical_variables:
+  - sex
+  - cabin
+  - embarked
+  - title
+
+cabin:
+  - cabin
+target:
+  - survived
+# set train/test split
+test_size: 0.2
+# to set the random seed
+random_state: 0
+
+
